@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+  --white : #fff;
+  --black : #000;
+  --blue-300: #4EA8DE;
+  --blue-500: #1E6F9F;
+  --gray-300 : #808080;
+  --gray-400 : #333333;
+  --gray-500 : #1E1E1E;
+  --gray-700 : #0D0D0D;
+  
+}
+body {
+  background-color: var(--gray-700);
+  color: var(--white);
+}
+
+body, input, textarea, button {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+}
+
+input, textarea, button {
+  cursor: pointer;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

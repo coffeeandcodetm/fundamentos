@@ -1,0 +1,33 @@
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: -2rem;
+  gap: .5rem;
+
+  input {
+    padding: .8rem;
+    margin: .7rem 0;
+    border-radius: 4px;
+    background-color: var(--gray-400);
+    color: var(--white);
+    border: none;
+    width: 100%;
+
+  }
+
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .4rem;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: .5rem;
+    background-color: var(--blue-500);
+    min-width: 5rem;
+    color: var(--white);
+    cursor: pointer;
+  }
+}
